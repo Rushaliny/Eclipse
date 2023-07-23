@@ -17,7 +17,7 @@
    
   </div>
   <div class="form-group col-6">
-    <label for="exampleInputPassword1">Number</label>
+    <label for="exampleInputPassword1">Numbers</label>
     <input type="text" class="form-control" id="number" name="number" placeholder="number">
   </div>
   <div class="form-group col-6">
