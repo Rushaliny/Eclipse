@@ -47,7 +47,7 @@ top: 13px;
             </div>
             <div class="col-xl-6">
               <div class="card-body p-md-5 text-black">
-                <h3 class="mb-5 text-uppercase">Student registration form</h3>
+                <h3 class="mb-5 text-uppercase">Consultant registration form</h3>
 
                 <div class="row">
                   <div class="col-md-6 mb-4">
@@ -64,7 +64,7 @@ top: 13px;
                   </div>
                 </div>
 
-                <div class="row">
+                <!-- <div class="row">
                   <div class="col-md-6 mb-4">
                     <div class="form-outline">
                       <input type="text" id="form3Example1m1" class="form-control form-control-lg" />
@@ -77,7 +77,7 @@ top: 13px;
                       <label class="form-label" for="form3Example1n1">Father's name</label>
                     </div>
                   </div>
-                </div>
+                </div> -->
 
                 <div class="form-outline mb-4">
                   <input type="text" id="form3Example8" class="form-control form-control-lg" />
@@ -164,5 +164,11 @@ top: 13px;
     </div>
   </div>
 </section>
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"
+></script>
+
 </body>
 </html>
