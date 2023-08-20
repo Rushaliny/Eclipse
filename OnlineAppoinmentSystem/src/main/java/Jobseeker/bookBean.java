@@ -45,5 +45,30 @@ public class bookBean {
 		this.massage = massage;
 	}
 	
+	public static String name() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public static String email() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public static String phone() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public static String date() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public static String consutant() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public static String massage() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
 	
 }
