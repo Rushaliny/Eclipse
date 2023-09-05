@@ -35,7 +35,37 @@ public class RegisterServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		doGet(request, response);
+		 String firstname = request.getParameter("firstname");
+	        String lastname = request.getParameter("lastname");
+	        String gender = request.getParameter("gender");
+	        String state = request.getParameter("state");
+	        String city = request.getParameter("city");
+	        String dob = request.getParameter("dob");
+	        String pincode = request.getParameter("pincode");
+	        String course = request.getParameter("course");
+	        String email = request.getParameter("email");
+	        String password = request.getParameter("password");
+
+	        // Create a User object
+	        RegisterDAO user = new RegisterDAO();
+	        user.setfirstname(firstname);
+	        user.setlastname(lastname);
+	        user.setEmail(gender);
+
+	        // Create a RegisterDAO instance and call the insertUser method
+	        RegisterDAO registerDAO = new RegisterDAO();
+	        boolean registrationSuccessful = registerDAO.insertUser(user);
+
+	        if (registrationSuccessful) {
+	            // Redirect to a success page
+	            response.sendRedirect("login.jsp");
+	        } else {
+	            // Redirect to an error page
+	            response.sendRedirect("register.jsp");
+	        }
+	    
 	}
 
-}
+	}
+
+

@@ -15,5 +15,15 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/mysql-connector-j-8.1.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/venij/eclipse-workspace/Abroad_Wizard/src/main/webapp/WEB-INF/lib/com.mysql.jdbc_5.1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/venij/eclipse-workspace/resources/apache-tomcat-8.5.85/lib/catalina.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-8.5-doc/api/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/venij/eclipse-workspace/resources/apache-tomcat-8.5.85/lib/tomcat-jni.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-8.5-doc/api/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
