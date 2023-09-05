@@ -47,14 +47,21 @@ public class RegisterServlet extends HttpServlet {
 	        String password = request.getParameter("password");
 
 	        // Create a User object
-	        RegisterDAO user = new RegisterDAO();
-	        user.setfirstname(firstname);
-	        user.setlastname(lastname);
-	        user.setEmail(gender);
+	        RegisterBean user = new RegisterBean();
+	        user.setFirstname(firstname);
+	        user.setLastname(lastname);
+	        user.setGender(gender);
+	        user.setState(state);
+	        user.setCity(city);
+	        user.setDob(dob);
+	        user.setPincode(pincode);
+	        user.setCourse(course);
+	        user.setEmail(email);
+	        user.setPassword(password);
 
 	        // Create a RegisterDAO instance and call the insertUser method
 	        RegisterDAO registerDAO = new RegisterDAO();
-	        boolean registrationSuccessful = registerDAO.insertUser(user);
+	        boolean registrationSuccessful = registerDAO.insert(registerDAO);
 
 	        if (registrationSuccessful) {
 	            // Redirect to a success page
